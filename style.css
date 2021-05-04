@@ -1,0 +1,10 @@
+.formCadastro{
+    padding: 25px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: whitesmoke;
+}
+body{
+    background-color:darkorchid;
+    color:whitesmoke;
+}

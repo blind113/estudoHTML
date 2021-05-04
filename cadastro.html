@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home <i class="bi bi-house"></i> </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./sobre.html">Sobre <i class="bi bi-clipboard-data"></i></a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./cadastro.html">Cadastro <i class="bi bi-person-plus"></i> </a>
+                </li>
+            </ul>   
+        </div>    
+    </nav>
+    <div class='container '>
+        <h3 class="display-3">
+            CADASTRO
+        </h3>
+        <div class='formCadastro'>
+            <form action="" >
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label for='name' > Nome: </label>
+                        <input id='name' name='nome' type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-6">
+                        <label for='name'> CPF: </label>
+                        <input id='CPF' name='CPF' type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="email" >Data Nascimento:</label>
+                        <input id='dt_nasc' name='dt_nasc' type="date" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="email"  >Email</label>
+                        <input id='email' name='email' type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="tel" >Telefone:</label>
+                        <input id ='tel' name ='tel' type="text" class="form-control">
+                    </div>
+                </div>
+                <hr >
+                <div class="row">
+                    <div class="col-sm-10"></div>
+                    <div class="col-sm-1">
+                        <a class="btn btn-light">Voltar</a>
+                    </div> 
+                    <div class="col-sm-1">
+                        <button class="btn btn-light" >Salvar</button>
+                    </div> 
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class='footer fixed-bottom bg-dark' >
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12" align='center' >
+                    <h11> Alfredo Osorio - <a href="mailto:blind.osorio@gmail.com">blind.osorio@gmail.com</a>  </h11>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
